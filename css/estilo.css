@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+}
+
+.card_container{
+    position: relative;
+    background-color: hsl(244, 38%, 16%);
+    width: 1150px;
+    height: 455px;
+    border-radius: 10px;
+}
+
+.mainimg{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 550px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.violet{
+    position: absolute;
+    height: 455px;
+    width: 550px;
+    background-color: hsla(277, 72%, 28%, 0.616);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    right: 0;
+}
+
+.title{
+    position: absolute;
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    top: 70px;
+    left: 70px;
+    width: 420px;
+}
+
+.information{
+    color: hsl(277, 64%, 61%);
+}
+
+.description{
+    position: absolute;
+    color: hsla(0, 0%, 100%, 0.6);
+    top: 170px;
+    width: 420px;
+    left: 70px;
+    font-family: 'Inter', sans-serif;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.number1{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+    top: 330px;
+    left: 70px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.number2{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+    top: 330px;
+    left: 220px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.number3{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+    top: 330px;
+    left: 360px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.subtitle1{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    top: 365px;
+    left: 70px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.subtitle2{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    top: 365px;
+    left: 220px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.subtitle3{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    top: 365px;
+    left: 360px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.fer{
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+    top: 430px;
+    left: 200px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 375px){
+    .card{
+        height: 120vh
+    }
+    .card_container{
+        width: 300px;
+        height: 850px;
+    }
+
+    .mainimg{
+        width: 300px;
+        background: url(/images/image-header-mobile.jpg);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+        left: 0px;
+        top: 0px
+    }
+
+    .violet{
+        height: 248px;
+        width: 300px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .title{
+        font-size: 25px;
+        text-align: center;
+        top: 290px;
+        left: 17px;
+        width: 270px;
+    }
+
+    .description{
+        top: 400px;
+        width: 270px;
+        left: 17px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .number1{
+        top: 550px;
+        left: 120px;
+        font-size: 25px;
+    }
+    
+    .subtitle1{
+        top: 590px;
+        left: 110px;
+        font-size: 12px;
+    }
+
+    .number2{
+        top: 630px;
+        left: 125px;
+        font-size: 25px;
+    }
+
+    .subtitle2{
+        top: 670px;
+        left: 105px;
+        font-size: 12px;
+    }
+
+    .number3{
+        top: 720px;
+        left: 120px;
+        font-size: 25px;
+    }
+
+    .subtitle3{
+        top: 760px;
+        left: 107px;
+        font-size: 12px;
+    }
+
+    .fer{
+        top: 820px;
+        left: 90px;
+        font-size: 12px;
+    }
+}
