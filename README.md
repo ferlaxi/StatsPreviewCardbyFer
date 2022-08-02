@@ -11,4 +11,4 @@
 ## Author
 
 - Frontend Mentor - [@ferlaxi](https://www.frontendmentor.io/profile/ferlaxi)
-- Live Site URL: [Stats Preview Card]() 🌐
+- Live Site URL: [Stats Preview Card](https://ferlaxi.github.io/StatsPreviewCardbyFer/) 🌐
