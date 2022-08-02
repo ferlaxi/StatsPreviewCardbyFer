@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 .card{
     display: flex;
     justify-content: center;
@@ -155,7 +157,7 @@
     }
 
     .violet{
-        height: 248px;
+        height: 280px;
         width: 300px;
         border-top-right-radius: 10px;
         border-top-left-radius: 10px;
@@ -217,6 +219,92 @@
     .fer{
         top: 820px;
         left: 90px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 475px){
+    .card{
+        height: 120vh
+    }
+    .card_container{
+        width: 370px;
+        height: 930px;
+    }
+
+    .mainimg{
+        width: 370px;
+        background: url(/images/image-header-mobile.jpg);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+        left: 0px;
+        top: 0px
+    }
+
+    .violet{
+        height: 306px;
+        width: 370px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .title{
+        font-size: 25px;
+        text-align: center;
+        top: 330px;
+        left: 55px;
+        width: 270px;
+    }
+
+    .description{
+        top: 450px;
+        width: 270px;
+        left: 55px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .number1{
+        top: 600px;
+        left: 165px;
+        font-size: 25px;
+    }
+    
+    .subtitle1{
+        top: 635px;
+        left: 155px;
+        font-size: 12px;
+    }
+
+    .number2{
+        top: 680px;
+        left: 170px;
+        font-size: 25px;
+    }
+
+    .subtitle2{
+        top: 715px;
+        left: 145px;
+        font-size: 12px;
+    }
+
+    .number3{
+        top: 765px;
+        left: 160px;
+        font-size: 25px;
+    }
+
+    .subtitle3{
+        top: 805px;
+        left: 145px;
+        font-size: 12px;
+    }
+
+    .fer{
+        top: 900px;
+        left: 125px;
         font-size: 12px;
     }
 }
